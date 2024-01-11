@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity2">
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="168dp"
+            android:layout_height="92dp"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="10dp"
+            android:contentDescription="TODO"
+            app:srcCompat="@drawable/kaziranga"
+            tools:layout_editor_absoluteX="161dp"
+            tools:layout_editor_absoluteY="312dp" />
+
+        <TextView
+            android:layout_width="308dp"
+            android:layout_height="81dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="39dp"
+            android:layout_marginTop="110dp"
+            android:text="@string/the_sanctuary_takes_its_name_from_the_bhadra_river_its_lifeline_popularly_known_as_muthodi_wildlife_sanctuary_after_the_village_on_its_periphery_it_was_declared_a_project_tiger_reserve_but_apart_from_the_tiger_it_is_a_great_place_to_sight_and_observe_other_mammals_reptiles_and_more_than_250_species_of_birds_many_of_which_are_endemic_to_the_western_ghats"
+            android:textSize="11sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="120dp"
+            android:layout_marginTop="180dp"
+            android:onClick="open"
+            android:text="@string/open1"
+            tools:layout_editor_absoluteX="168dp"
+            tools:layout_editor_absoluteY="176dp" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="168dp"
+            android:layout_height="92dp"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="230dp"
+            android:contentDescription="TODO"
+            app:srcCompat="@drawable/wilddd"
+            tools:layout_editor_absoluteX="161dp"
+            tools:layout_editor_absoluteY="312dp" />
+        <TextView
+            android:layout_width="330dp"
+            android:layout_height="99dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="27dp"
+            android:layout_marginTop="330dp"
+            android:text="@string/chinnar_wildlife_sanctuary_in_idukki_is_home_to_the_great_grizzled_squirrel_of_india_numbering_less_than_200_they_are_among_the_most_endangered_species_on_the_planet_its_unique_location_in_the_western_ghats_has_ensured_it_gets_less_than_2_months_of_rainfall_annually_the_wildlife_along_with_the_deciduous_trees_makes_it_an_ideal_spot_for_trekking_aficionados"
+            android:textSize="11sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="120dp"
+            android:layout_marginTop="430dp"
+            android:onClick="openSevai"
+            android:text="@string/open1"
+            tools:layout_editor_absoluteX="166dp"
+            tools:layout_editor_absoluteY="318dp" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="168dp"
+            android:layout_height="92dp"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="480dp"
+            android:contentDescription="TODO"
+            app:srcCompat="@drawable/wildd"
+            tools:layout_editor_absoluteX="161dp"
+            tools:layout_editor_absoluteY="312dp" />
+
+        <TextView
+            android:layout_width="328dp"
+            android:layout_height="111dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="36dp"
+            android:layout_marginTop="570dp"
+            android:text="@string/in_the_banks_of_periyar_lake_lays_the_pride_of_kerala_the_periyar_wildlife_sanctuary_and_national_park_this_is_a_protected_area_placed_in_the_idukki_and_pathanamthitta_districts_of_kerala_the_sanctuary_which_borders_with_tamil_nadu_is_located_in_the_cardamom_and_pandhalam_hills_in_the_western_ghats_the_wildlife_sanctuary_is_also_famous_for_its_tiger_reserve_and_elephant_reserve"
+            android:textSize="11sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:text="@string/open1"
+            tools:layout_editor_absoluteX="168dp"
+            tools:layout_editor_absoluteY="477dp"
+            android:layout_marginStart="120dp"
+            android:layout_marginTop="690dp"
+            android:onClick="openParivahan"/>
+    </RelativeLayout>
+</ScrollView>
